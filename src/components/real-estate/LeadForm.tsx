@@ -5,9 +5,10 @@ import { FormEvent, useState } from "react";
 
 type Props = {
     whatsapp: string;
+    businessName: string;
 };
 
-export function LeadForm({ whatsapp }: Props) {
+export function LeadForm({ whatsapp, businessName }: Props) {
     const [submitted, setSubmitted] = useState(false);
 
     function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -49,7 +50,7 @@ export function LeadForm({ whatsapp }: Props) {
 
                 <p className="mt-4 max-w-md text-sm leading-7 text-black/55">
                     Your enquiry has been prepared in WhatsApp. You can now
-                    continue the conversation with Property Market India.
+                    continue the conversation with {businessName}.
                 </p>
             </div>
         );
