@@ -1,312 +1,232 @@
 import type { RealEstateDemo } from "./types";
 
 export const realEstateDemos: RealEstateDemo[] = [
-  {
-  slug: "property-market-india",
-
-  business: {
-    name: "Property Market India",
-    tagline: "Best Real Estate Consultants Property Brokers in Pune",
-    description:
-      "Property Market India is a real estate consultancy and property brokerage based in Pune.",
-    phone: "077678 88881",
-    whatsapp: "917767888881",
-    address:
-      "Property Market India - Best Real Estate Consultants Property Brokers in Pune",
-  },
-
-  hero: {
-    title: "Real Estate Consultants & Property Brokers in Pune",
-    subtitle:
-      "Property Market India — helping you explore property opportunities across Pune.",
-    image: "/demos/property-market-india/exterior-2.jpg",
-  },
-
-  stats: [
-    { value: "5.0★", label: "Google Rating" },
-    { value: "135", label: "Google Reviews" },
-  ],
-
-  properties: [],
-
-  gallery: [
     {
-      image: "/demos/property-market-india/exterior-1.jpg",
-      label: "Exterior",
-    },
-    {
-      image: "/demos/property-market-india/interior-1.jpg",
-      label: "Interior",
-    },
-    {
-      image: "/demos/property-market-india/interior-2.jpg",
-      label: "Interior",
-    },
-    {
-      image: "/demos/property-market-india/exterior-2.jpg",
-      label: "Exterior",
-    },
-  ],
-
-  about: {
-    title: "A simpler way to navigate property in Pune.",
-    description:
-      "Property Market India brings property consultation and brokerage services together in one place, helping buyers and property seekers explore opportunities across Pune.",
-    image: "/demos/property-market-india/interior-2.jpg",
-  },
-
-  services: [
-    {
-      title: "Property Consultation",
-      description:
-        "Get guidance when exploring property opportunities and making your next move.",
-    },
-    {
-      title: "Residential Properties",
-      description:
-        "Explore residential spaces suited to different requirements, preferences, and budgets.",
-    },
-    {
-      title: "Property Brokerage",
-      description:
-        "Connect with a property consultant to discuss your requirements and available opportunities.",
-    },
-  ],
-},
-    {
-        slug: "sharma-properties",
+        slug: "property-market-india",
 
         business: {
-            name: "Sharma Properties",
-            tagline: "Trusted property solutions across Pune.",
+            name: "Property Market India",
+            tagline: "Best Real Estate Consultants Property Brokers in Pune",
             description:
-                "Helping buyers, sellers, and investors find the right residential and commercial properties across Pune.",
-            phone: "+91 91234 56789",
-            whatsapp: "919123456789",
-            email: "hello@sharmaproperties.com",
-            address: "Wakad, Pune",
+                "Property Market India is a real estate consultancy and property brokerage based in Pune.",
+            phone: "077678 88881",
+            whatsapp: "917767888881",
+            address:
+                "Property Market India - Best Real Estate Consultants Property Brokers in Pune",
         },
 
         hero: {
-            title: "Properties That Fit Your Plans",
+            title: "Real Estate Consultants & Property Brokers in Pune",
             subtitle:
-                "Explore residential and commercial properties selected for your needs and budget.",
-            image: "/demos/sharma-properties/hero.jpg",
+                "Property Market India — helping you explore property opportunities across Pune.",
+            image: "/demos/property-market-india/exterior-2.jpg",
         },
 
         stats: [
-            {
-                value: "8+",
-                label: "Years Experience",
-            },
-            {
-                value: "300+",
-                label: "Happy Clients",
-            },
-            {
-                value: "4.8★",
-                label: "Client Rating",
-            },
+            { value: "5.0★", label: "Google Rating" },
+            { value: "135", label: "Google Reviews" },
         ],
 
-        properties: [
+        listings: [],
+
+        gallery: [
             {
-                title: "3 BHK Premium Apartment",
-                location: "Wakad, Pune",
-                price: "₹1.15 Cr",
-                type: "Apartment",
-                beds: 3,
-                baths: 3,
-                area: "1,420 sq.ft",
-                image: "/demos/sharma-properties/property-1.jpg",
-                featured: true,
+                image: "/demos/property-market-india/exterior-1.jpg",
+                label: "Exterior",
             },
             {
-                title: "2 BHK Modern Apartment",
-                location: "Hinjewadi, Pune",
-                price: "₹78 Lakh",
-                type: "Apartment",
-                beds: 2,
-                baths: 2,
-                area: "1,020 sq.ft",
-                image: "/demos/sharma-properties/property-2.jpg",
+                image: "/demos/property-market-india/interior-1.jpg",
+                label: "Interior",
             },
             {
-                title: "4 BHK Independent Villa",
-                location: "Baner, Pune",
-                price: "₹2.35 Cr",
-                type: "Villa",
-                beds: 4,
-                baths: 4,
-                area: "2,600 sq.ft",
-                image: "/demos/sharma-properties/property-3.jpg",
+                image: "/demos/property-market-india/interior-2.jpg",
+                label: "Interior",
             },
             {
-                title: "Commercial Office",
-                location: "Balewadi, Pune",
-                price: "₹1.25 Cr",
-                type: "Commercial",
-                area: "1,500 sq.ft",
-                image: "/demos/sharma-properties/property-4.jpg",
+                image: "/demos/property-market-india/exterior-2.jpg",
+                label: "Exterior",
             },
         ],
 
         about: {
-            title: "Local Knowledge. Personal Service.",
+            title: "A simpler way to navigate property in Pune.",
             description:
-                "We help clients make confident property decisions with local market knowledge and personalized guidance.",
-            image: "/demos/sharma-properties/about.jpg",
+                "Property Market India brings property consultation and brokerage services together in one place, helping buyers and property seekers explore opportunities across Pune.",
+            image: "/demos/property-market-india/interior-2.jpg",
         },
 
         services: [
             {
-                title: "Buy Property",
+                title: "Property Consultation",
                 description:
-                    "Discover residential and commercial properties that match your requirements.",
+                    "Get guidance when exploring property opportunities and making your next move.",
             },
             {
-                title: "Sell Property",
+                title: "Residential Properties",
                 description:
-                    "Connect your property with interested buyers and investors.",
+                    "Explore residential spaces suited to different requirements, preferences, and budgets.",
             },
             {
-                title: "Investment Advisory",
+                title: "Property Brokerage",
                 description:
-                    "Explore property opportunities based on your investment goals.",
+                    "Connect with a property consultant to discuss your requirements and available opportunities.",
             },
         ],
     },
 
     {
-        slug: "abc-realty",
+        slug: "sairaj-agency",
 
         business: {
-            name: "ABC Realty",
-            tagline: "Find a place you'll love to call home.",
+            name: "Sairaj Real Estate",
+            tagline: "Residential & Commercial Property Solutions in Pune",
             description:
-                "Helping families find residential and investment properties across Pune.",
-            phone: "+91 98765 43210",
-            whatsapp: "919876543210",
-            email: "hello@abcrealty.com",
-            address: "Baner, Pune",
+                "Sairaj Real Estate helps buyers, sellers, tenants, and property owners explore residential and commercial real estate opportunities across Pune.",
+            phone: "+91 98227 87870",
+            whatsapp: "919822787870",
+            email: "rahul787870@yahoo.co.in",
+            address:
+                "Shop No. 4, Pushkar-2, Paud Road, Opp. Maharaja Complex, Bhusari Colony, Kothrud, Pune, Maharashtra 411038",
         },
 
         hero: {
-            title: "Find Your Next Home in Pune",
+            title: "Find the Right Property in Pune",
             subtitle:
-                "Explore carefully selected residential and investment properties.",
-            image: "/demos/abc-realty/hero.jpg",
+                "Explore residential and commercial properties for sale, rent, and lease with local property guidance.",
+            image: "/demos/sairaj-agency/hero.jpg",
         },
 
         stats: [
             {
-                value: "10+",
-                label: "Years Experience",
+                value: "Pune",
+                label: "Local Market",
             },
             {
-                value: "500+",
-                label: "Properties Sold",
+                value: "Buy",
+                label: "Sell & Purchase",
             },
             {
-                value: "4.9★",
-                label: "Client Rating",
+                value: "Rent",
+                label: "Rental & Leasing",
             },
         ],
 
-        properties: [
+        listings: [
             {
-                title: "3 BHK Premium Apartment",
-                location: "Baner, Pune",
-                price: "₹1.25 Cr",
-                type: "Apartment",
-                beds: 3,
-                baths: 3,
-                area: "1,450 sq.ft",
-                image: "/demos/abc-realty/property-1.jpg",
-                featured: true,
-            },
-            {
+                id: "sairaj-1",
+                category: "rent",
                 title: "2 BHK Modern Apartment",
-                location: "Wakad, Pune",
-                price: "₹82 Lakh",
+                location: "Kothrud, Pune",
+                price: "₹32,000 / month",
                 type: "Apartment",
                 beds: 2,
                 baths: 2,
                 area: "1,050 sq.ft",
-                image: "/demos/abc-realty/property-2.jpg",
+                description:
+                    "A comfortable 2 BHK apartment suitable for families looking for a well-connected location in Kothrud.",
+                features: [
+                    "2 Bedrooms",
+                    "2 Bathrooms",
+                    "1,050 sq.ft",
+                    "Residential Apartment",
+                ],
+                images: [
+                    "/demos/sairaj-agency/property-1.jpg",
+                ],
+                featured: true,
             },
+
             {
-                title: "3 BHK Luxury Villa",
-                location: "Kothrud, Pune",
-                price: "₹2.1 Cr",
-                type: "Villa",
+                id: "sairaj-2",
+                category: "sale",
+                title: "3 BHK Family Apartment",
+                location: "Bhusari Colony, Pune",
+                price: "₹1.35 Cr",
+                type: "Apartment",
                 beds: 3,
-                baths: 4,
-                area: "2,400 sq.ft",
-                image: "/demos/abc-realty/property-3.jpg",
+                baths: 3,
+                area: "1,450 sq.ft",
+                description:
+                    "A spacious 3 BHK family apartment in Bhusari Colony with generous living areas and a convenient Pune location.",
+                features: [
+                    "3 Bedrooms",
+                    "3 Bathrooms",
+                    "1,450 sq.ft",
+                    "Residential Apartment",
+                ],
+                images: [
+                    "/demos/sairaj-agency/property-2.jpg",
+                ],
             },
 
             {
-                title: "2 BHK Family Home",
-                location: "Aundh, Pune",
-                price: "₹95 Lakh",
-                type: "Apartment",
-                beds: 2,
-                baths: 2,
-                area: "1,180 sq.ft",
-                image: "/demos/abc-realty/property-4.jpg",
+                id: "sairaj-3",
+                category: "commercial",
+                title: "Premium Commercial Office",
+                location: "Kothrud, Pune",
+                price: "₹65,000 / month",
+                type: "Commercial Office",
+                area: "1,200 sq.ft",
+                description:
+                    "A commercial office space suitable for businesses looking for a professional workspace in Kothrud.",
+                features: [
+                    "1,200 sq.ft",
+                    "Commercial Office",
+                    "Kothrud Location",
+                    "Suitable for Business Use",
+                ],
+                images: [
+                    "/demos/sairaj-agency/property-3.jpg",
+                ],
             },
 
             {
-                title: "4 BHK Premium Residence",
-                location: "Balewadi, Pune",
-                price: "₹1.85 Cr",
-                type: "Apartment",
-                beds: 4,
-                baths: 4,
-                area: "2,100 sq.ft",
-                image: "/demos/abc-realty/property-5.jpg",
-            },
-
-            {
-                title: "Commercial Office Space",
-                location: "Baner, Pune",
-                price: "₹1.4 Cr",
-                type: "Commercial",
+                id: "sairaj-4",
+                category: "sale",
+                title: "3 BHK Spacious Residence",
+                location: "Karve Nagar, Pune",
+                price: "₹1.55 Cr",
+                type: "Residential Apartment",
+                beds: 3,
+                baths: 3,
                 area: "1,650 sq.ft",
-                image: "/demos/abc-realty/property-6.jpg",
+                description:
+                    "A spacious 3 BHK residence in Karve Nagar offering generous living space for families.",
+                features: [
+                    "3 Bedrooms",
+                    "3 Bathrooms",
+                    "1,650 sq.ft",
+                    "Residential Apartment",
+                ],
+                images: [
+                    "/demos/sairaj-agency/property-4.jpg",
+                ],
             },
         ],
 
         about: {
-            title: "Local Expertise. Better Properties.",
+            title: "Local Property Guidance. Straightforward Service.",
             description:
-                "We help buyers and investors discover properties that match their requirements and budget.",
-            image: "/demos/abc-realty/about.jpg",
+                "Whether you are looking to buy, sell, rent, or lease, our approach is focused on understanding your requirements and helping you explore suitable property opportunities across Pune.",
+            image: "/demos/sairaj-agency/about.jpg",
         },
 
         services: [
             {
                 title: "Buy Property",
                 description:
-                    "Find residential properties matching your requirements.",
+                    "Explore residential and commercial properties based on your location, budget, and requirements.",
             },
             {
                 title: "Sell Property",
                 description:
-                    "Connect your property with serious buyers.",
+                    "Discuss your property requirements and connect with potential buyers in the Pune market.",
             },
             {
-                title: "Property Investment",
+                title: "Rent & Lease",
                 description:
-                    "Explore opportunities for long-term real estate investment.",
+                    "Find residential rentals and commercial spaces suited to your preferred location and budget.",
             },
         ],
-        social: {
-            instagram: "https://instagram.com/abcrealty",
-            facebook: "https://facebook.com/abcrealty",
-            linkedin: "https://linkedin.com/company/abcrealty",
-            x: "https://x.com/abcrealty",
-        },
     },
 ];
