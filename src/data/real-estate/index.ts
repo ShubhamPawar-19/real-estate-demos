@@ -229,4 +229,310 @@ export const realEstateDemos: RealEstateDemo[] = [
             },
         ],
     },
+
+    {
+        slug: "multi-bhk",
+
+        business: {
+            name: "MultiBhk",
+            tagline: "Real Estate Consultant in Kalyani Nagar, Pune",
+            description:
+                "MultiBhk is a real estate consultancy based in Kalyani Nagar, Pune, providing local property guidance for buyers, sellers, and investors.",
+            phone: "098220 10548",
+            whatsapp: "919822010548",
+            address:
+                "MultiBhk",
+        },
+
+        hero: {
+            title: "Real Estate Consultant in Kalyani Nagar, Pune",
+            subtitle:
+                "Local real estate guidance for buyers, sellers, and investors looking for property opportunities across Pune.",
+            image: "/demos/multi-bhk/hero.jpg",
+        },
+
+        stats: [
+            {
+                value: "5.0★",
+                label: "Google Rating",
+            },
+            {
+                value: "799+",
+                label: "Google Reviews",
+            },
+            {
+                value: "Pune",
+                label: "Local Market",
+            },
+        ],
+
+        listings: [
+            {
+                id: "multi-bhk-1",
+                category: "rent",
+                title: "2 BHK Modern Apartment",
+                location: "Kothrud, Pune",
+                price: "₹32,000 / month",
+                type: "Apartment",
+                beds: 2,
+                baths: 2,
+                area: "1,050 sq.ft",
+                description:
+                    "A comfortable 2 BHK apartment suitable for families looking for a well-connected location in Kothrud.",
+                features: [
+                    "2 Bedrooms",
+                    "2 Bathrooms",
+                    "1,050 sq.ft",
+                    "Residential Apartment",
+                ],
+                images: [
+                    "/demos/multi-bhk/property-1.jpg",
+                ],
+                featured: true,
+            },
+
+            {
+                id: "multi-bhk-2",
+                category: "sale",
+                title: "3 BHK Family Apartment",
+                location: "Bhusari Colony, Pune",
+                price: "₹1.35 Cr",
+                type: "Apartment",
+                beds: 3,
+                baths: 3,
+                area: "1,450 sq.ft",
+                description:
+                    "A spacious 3 BHK family apartment in Bhusari Colony with generous living areas and a convenient Pune location.",
+                features: [
+                    "3 Bedrooms",
+                    "3 Bathrooms",
+                    "1,450 sq.ft",
+                    "Residential Apartment",
+                ],
+                images: [
+                    "/demos/multi-bhk/property-2.jpg",
+                ],
+            },
+
+            {
+                id: "multi-bhk-3",
+                category: "commercial",
+                title: "Premium Commercial Office",
+                location: "Kothrud, Pune",
+                price: "₹65,000 / month",
+                type: "Commercial Office",
+                area: "1,200 sq.ft",
+                description:
+                    "A commercial office space suitable for businesses looking for a professional workspace in Kothrud.",
+                features: [
+                    "1,200 sq.ft",
+                    "Commercial Office",
+                    "Kothrud Location",
+                    "Suitable for Business Use",
+                ],
+                images: [
+                    "/demos/multi-bhk/property-3.jpg",
+                ],
+            },
+
+            {
+                id: "multi-bhk-4",
+                category: "sale",
+                title: "3 BHK Spacious Residence",
+                location: "Karve Nagar, Pune",
+                price: "₹1.55 Cr",
+                type: "Residential Apartment",
+                beds: 3,
+                baths: 3,
+                area: "1,650 sq.ft",
+                description:
+                    "A spacious 3 BHK residence in Karve Nagar offering generous living space for families.",
+                features: [
+                    "3 Bedrooms",
+                    "3 Bathrooms",
+                    "1,650 sq.ft",
+                    "Residential Apartment",
+                ],
+                images: [
+                    "/demos/multi-bhk/property-4.jpg",
+                ],
+            },
+        ],
+
+        about: {
+            title: "Local Real Estate Expertise in Pune.",
+            description:
+                "MultiBhk provides local real estate guidance for buyers, sellers, and investors. Visit the office in Kalyani Nagar to discuss your property requirements and explore suitable opportunities.",
+            image: "/demos/multi-bhk/about.jpg",
+        },
+
+        services: [
+            {
+                title: "Buy Property",
+                description:
+                    "Discuss your requirements and explore residential and commercial property opportunities across Pune.",
+            },
+            {
+                title: "Sell Property",
+                description:
+                    "Get local guidance when looking to sell your property in the Pune market.",
+            },
+            {
+                title: "Property Investment",
+                description:
+                    "Discuss property opportunities and investment requirements with a local real estate consultant.",
+            },
+        ],
+    },
+
+    {
+        slug: "joad-estate",
+
+        business: {
+            name: "Joad Estate",
+            tagline: "Real Estate Agency, Pune",
+            description:
+                "Joad Estate is a real estate agency based in Pune, providing local property guidance for buyers, sellers, and investors.",
+            phone: "09822973807",
+            whatsapp: "09822973807",
+            address:
+                "Joad Estate",
+        },
+
+        hero: {
+            title: "Real Estate Agency, Pune",
+            subtitle:
+                "Local real estate guidance for buyers, sellers, and investors looking for property opportunities across Pune.",
+            image: "/demos/multi-bhk/hero.jpg",
+        },
+
+        stats: [
+            {
+                value: "4.7★",
+                label: "Google Rating",
+            },
+            {
+                value: "78",
+                label: "Google Reviews",
+            },
+        ],
+
+        listings: [
+            {
+                id: "multi-bhk-1",
+                category: "rent",
+                title: "2 BHK Modern Apartment",
+                location: "Kothrud, Pune",
+                price: "₹32,000 / month",
+                type: "Apartment",
+                beds: 2,
+                baths: 2,
+                area: "1,050 sq.ft",
+                description:
+                    "A comfortable 2 BHK apartment suitable for families looking for a well-connected location in Kothrud.",
+                features: [
+                    "2 Bedrooms",
+                    "2 Bathrooms",
+                    "1,050 sq.ft",
+                    "Residential Apartment",
+                ],
+                images: [
+                    "/demos/multi-bhk/property-1.jpg",
+                ],
+                featured: true,
+            },
+
+            {
+                id: "multi-bhk-2",
+                category: "sale",
+                title: "3 BHK Family Apartment",
+                location: "Bhusari Colony, Pune",
+                price: "₹1.35 Cr",
+                type: "Apartment",
+                beds: 3,
+                baths: 3,
+                area: "1,450 sq.ft",
+                description:
+                    "A spacious 3 BHK family apartment in Bhusari Colony with generous living areas and a convenient Pune location.",
+                features: [
+                    "3 Bedrooms",
+                    "3 Bathrooms",
+                    "1,450 sq.ft",
+                    "Residential Apartment",
+                ],
+                images: [
+                    "/demos/multi-bhk/property-2.jpg",
+                ],
+            },
+
+            {
+                id: "multi-bhk-3",
+                category: "commercial",
+                title: "Premium Commercial Office",
+                location: "Kothrud, Pune",
+                price: "₹65,000 / month",
+                type: "Commercial Office",
+                area: "1,200 sq.ft",
+                description:
+                    "A commercial office space suitable for businesses looking for a professional workspace in Kothrud.",
+                features: [
+                    "1,200 sq.ft",
+                    "Commercial Office",
+                    "Kothrud Location",
+                    "Suitable for Business Use",
+                ],
+                images: [
+                    "/demos/multi-bhk/property-3.jpg",
+                ],
+            },
+
+            {
+                id: "multi-bhk-4",
+                category: "sale",
+                title: "3 BHK Spacious Residence",
+                location: "Karve Nagar, Pune",
+                price: "₹1.55 Cr",
+                type: "Residential Apartment",
+                beds: 3,
+                baths: 3,
+                area: "1,650 sq.ft",
+                description:
+                    "A spacious 3 BHK residence in Karve Nagar offering generous living space for families.",
+                features: [
+                    "3 Bedrooms",
+                    "3 Bathrooms",
+                    "1,650 sq.ft",
+                    "Residential Apartment",
+                ],
+                images: [
+                    "/demos/multi-bhk/property-4.jpg",
+                ],
+            },
+        ],
+
+        about: {
+            title: "Local Real Estate Expertise in Pune.",
+            description:
+                "Joad Estate provides local real estate guidance for buyers, sellers, and investors. Visit the office in Kalyani Nagar to discuss your property requirements and explore suitable opportunities.",
+            image: "/demos/multi-bhk/about.jpg",
+        },
+
+        services: [
+            {
+                title: "Buy Property",
+                description:
+                    "Discuss your requirements and explore residential and commercial property opportunities across Pune.",
+            },
+            {
+                title: "Sell Property",
+                description:
+                    "Get local guidance when looking to sell your property in the Pune market.",
+            },
+            {
+                title: "Property Investment",
+                description:
+                    "Discuss property opportunities and investment requirements with a local real estate consultant.",
+            },
+        ],
+    },
 ];
